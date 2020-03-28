@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d73c92d6-e8ce-40d1-9e20-3830dff3333d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="ProjectId" id="1ZPx6UvDxAnAwuJS4YotCQ7oxLq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="ignore.virus.scanning.warn.message" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/fantastic-demo/countdown-timer-demo/js" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\uglys\WebstormProjects\css-learning\fantastic-demo\countdown-timer-demo\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\uglys\WebstormProjects\css-learning\fantastic-demo\login-form-demo\js\font-awesome" />
+      <recent name="C:\Users\uglys\WebstormProjects\css-learning\fantastic-demo\login-form-demo\img" />
+      <recent name="C:\Users\uglys\WebstormProjects\css-learning\fantastic-demo\login-form-demo" />
+      <recent name="C:\Users\uglys\WebstormProjects\css-learning\basic-exercise" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d73c92d6-e8ce-40d1-9e20-3830dff3333d" name="Default Changelist" comment="" />
+      <created>1584754355251</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584754355251</updated>
+      <workItem from="1584754357432" duration="33592000" />
+      <workItem from="1585365663193" duration="3523000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1030" y="426" key="MultipleFileMergeDialog" timestamp="1585369163411">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1030" y="426" key="MultipleFileMergeDialog/3840.1093.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1585369163411" />
+    <state x="1116" y="627" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585369151953">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1116" y="627" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/3840.1093.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1585369151953" />
+  </component>
+</project>
