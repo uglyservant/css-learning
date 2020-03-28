@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d73c92d6-e8ce-40d1-9e20-3830dff3333d" name="Default Changelist" comment="" />
+    <list default="true" id="d73c92d6-e8ce-40d1-9e20-3830dff3333d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/css-learning.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/uglys.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-exercise/001-basic-gramar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-exercise/002-common-selector.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-exercise/003-complex-selector.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-exercise/004-relation-selector.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-exercise/005-attribute-selector.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-exercise/006-pseudo-class-selector.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fantastic-demo/beautiful-moving-spotlight/beautiful-moving-spotlight.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fantastic-demo/beautiful-moving-spotlight/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fantastic-demo/beautiful-moving-spotlight/img/bg.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fantastic-demo/countdown-timer-vue/countdown-timer-vue.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fantastic-demo/countdown-timer-vue/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fantastic-demo/countdown-timer-vue/js/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fantastic-demo/ios-toggle-button/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fantastic-demo/ios-toggle-button/ios-toggle-button.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fantastic-demo/transparent-login-form/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fantastic-demo/transparent-login-form/img/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fantastic-demo/transparent-login-form/js/font-awesome/a076d05399.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fantastic-demo/transparent-login-form/transparent-login-form.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,7 +40,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ZPx6UvDxAnAwuJS4YotCQ7oxLq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -52,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1584754355251</updated>
       <workItem from="1584754357432" duration="33592000" />
-      <workItem from="1585365663193" duration="2343000" />
+      <workItem from="1585365663193" duration="2604000" />
     </task>
     <servers />
   </component>
