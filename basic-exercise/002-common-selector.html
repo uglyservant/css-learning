@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Common Selector</title>
+  <style>
+    /*
+      将所有的段落设为红色（字体）
+
+      元素选择器
+        作用：根据标签名称来选中指定的元素
+        语法：标签名{}
+        例子：div{}
+
+      id选择器
+        作用：根据元素的id属性值选中一个元素
+        语法：#(id名称) {}
+        例子：#famous-sentence {}
+
+      class选择器
+        作用：根据元素的id属性值选中一个元素
+        语法：.(class名称) {}
+        例子：.poetry {}
+    */
+
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .poetry {
+      text-align: center;
+      width: 100%;
+      margin: auto;
+    }
+
+    #famous-sentence {
+      color: rebeccapurple;
+    }
+  </style>
+</head>
+<body>
+  <div class="poetry">
+    <h1>滕王阁序</h1>
+    <p id="famous-sentence">秋水共长天一色，落霞与孤鹜齐飞。</p>
+  </div>
+</body>
+</html>

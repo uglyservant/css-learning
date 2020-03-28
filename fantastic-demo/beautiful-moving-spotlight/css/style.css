@@ -1,0 +1,53 @@
+@keyframes spotlight {
+  0% {
+    clip-path: ellipse(100px 100px at 0% 50%);
+  }
+
+  50% {
+    clip-path: ellipse(100px 100px at 100% 50%);
+  }
+
+  100% {
+    clip-path: ellipse(100px 100px at 0% 50%);
+  }
+}
+
+body {
+  background-color: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+h1 {
+  color: #333333;
+  margin: 0;
+  padding: 0;
+  font-size: 8rem;
+  font-family: 'Helvetica', sans-serif;
+  letter-spacing: -0.3rem;
+  position: relative;
+}
+
+h1::after {
+  content: attr(data-spotlight);
+  color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  /*画一个直径为100px的圆形>>>*/
+  clip-path: ellipse(100px 100px at 0% 50%);
+  /*<<<画一个直径为100px的圆形*/
+
+  animation: spotlight 5s infinite;
+
+  background-image: url("../img/bg.jfif");
+  background-size: 150%;
+  background-position: center center;
+  /*兼容性设置>>>*/
+  background-clip: text;
+  -webkit-background-clip: text;
+  /*<<<兼容性设置*/
+}

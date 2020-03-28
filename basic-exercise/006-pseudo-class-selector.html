@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pseudo Class Selector</title>
+  <style>
+    /**
+      伪类：用来描述一个元素的特殊状态
+        eg：第一个子元素、被点击的元素、鼠标移入的元素
+
+     */
+    ul > li:first-child {
+      color: red;
+    }
+
+    ul > li:nth-child(2n) {
+      color: yellow;
+    }
+
+    ul > li:first-of-type{
+      color: orange;
+    }
+
+    ul > li:nth-of-type(2n) {
+      color: rebeccapurple;
+    }
+
+    ul > li:not(:nth-of-type(3)) {
+      color: aqua;
+    }
+  </style>
+</head>
+<body>
+  <ul>
+    <span>span</span>
+    <li>第〇个</li>
+    <li>第一个</li>
+    <li>第二个</li>
+    <li>第三个</li>
+    <li>第四个</li>
+    <li>第五个</li>
+  </ul>
+</body>
+</html>

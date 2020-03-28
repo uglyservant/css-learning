@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Complex Selector</title>
+  <style>
+    /*将class为red的元素设置为红色*/
+    .red {
+      color: red;
+    }
+
+    /*交集选择器>>>>>>>>>>>*/
+    /*将class为red的div字体大小设置为30px*/
+    div.red {
+      font-size: 30px;
+    }
+
+    .class-a.class-b.class-c{
+      color: blue;
+    }
+    /*<<<<<<<<<<交集选择器*/
+
+    /*选择器分组（并集选择器）*/
+    h1, span {
+      color: green;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="red">我是一个DIV</div>
+  <p class="red">我是P元素</p>
+  <p class="class-a class-b class-c">我是P元素</p>
+
+  <h1>标题</h1>
+  <span>哈哈哈</span>
+</body>
+</html>

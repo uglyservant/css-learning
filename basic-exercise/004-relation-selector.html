@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Relation Selector</title>
+  <style>
+    /*
+      子元素选择器
+        作用：选中指定父元素的指定子元素
+        语法：父元素 > 子元素 {}
+
+      后代元素选择器
+        作用：选中指定祖先元素内的指定后代元素
+        语法：祖先元素 后代元素 {}
+
+      兄弟元素选择器
+        作用：选中指定元素相邻的兄弟元素
+        语法：前一个 + 后一个 {}
+        作用：选中指定元素的下边所有兄弟元素
+        语法：前一个 ~ 后一个 {}
+    */
+
+    div > p {
+      color: red;
+    }
+
+    div span {
+      color: orange;
+    }
+
+    p + span {
+      color: black;
+    }
+
+    p ~ span {
+      color: yellow;
+    }
+
+  </style>
+</head>
+<body>
+
+  父元素
+    - 直接包含子元素的元素
+  子元素
+    - 直接被父元素包含的元素
+  祖先元素
+    - 直接或间接包含后代元素的元素
+    - 一个元素的父元素也是该元素的祖先元素
+  兄弟元素
+    - 拥有相同父元素的元素
+
+  <div>
+    我是一个DIV
+    <p>
+      我是div中的p元素
+      <span>我是p元素中的span</span>
+    </p>
+    <span>我是div中的span元素</span>
+  </div>
+</body>
+</html>

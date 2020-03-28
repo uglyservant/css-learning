@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Transparent Login Form</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="js/font-awesome/a076d05399.js"></script>
+</head>
+<body>
+  <div class="bg-img">
+    <div class="content">
+      <header>Login Form</header>
+      <form action="./transparent-login-form.html">
+        <div class="field">
+          <span class="fa fa-user"></span>
+          <input type="text" placeholder="Email or Phone"
+                 required oninvalid="setCustomValidity('username is empty')" oninput="setCustomValidity('')">
+        </div>
+        <div class="field space">
+          <span class="fa fa-lock"></span>
+          <input type="password" placeholder="Password" class="password"
+                 required oninvalid="setCustomValidity('password is empty')" oninput="setCustomValidity('')">
+          <span class="show">SHOW</span>
+        </div>
+        <div class="forgot-pass">
+          <a href="#">Forgot Password?</a>
+        </div>
+        <div class="field">
+          <input type="submit" value="LOGIN">
+        </div>
+        <div class="other-login">Or login with</div>
+        <div class="link">
+          <div class="facebook">
+            <i class="fab fa-facebook-f"><span>Facebook</span></i>
+          </div>
+          <div class="instagram">
+            <i class="fab fa-instagram"><span>Instagram</span></i>
+          </div>
+        </div>
+        <div class="sing-up">
+          Don't have an account?&ensp;<a href="#">Sign Up</a>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script>
+    const passField = document.querySelector('.password');
+    const showBtn = document.querySelector('.show');
+    showBtn.addEventListener('click', () => {
+      if (passField.type === "password") {
+        passField.type = "text";
+        showBtn.style.color = "#3498db";
+        showBtn.textContent = "HIDE";
+      } else {
+        passField.type = "password";
+        showBtn.style.color = "#222";
+        showBtn.textContent = "SHOW"
+      }
+    })
+  </script>
+</body>
+</html>
