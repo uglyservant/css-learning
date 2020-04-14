@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.scalable {
+    position: relative;
+    background-color: #eee;
+    min-width: 100px;
+}
+
+.scalable .content {
+    padding-right: 34px;
+}
+
+.scalable .content img {
+    display: block;
+    max-width: 100%;
+    margin: auto;
+}
+
+.scalable .separator {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    right: 0;
+    width: 14px;
+    height: 100%;
+    background-color: white;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.35);
+    cursor: col-resize;
+}
+
+.scalable .separator i {
+    display: inline-block;
+    height: 14px;
+    width: 1px;
+    background-color: #E9E9E9;
+    margin: 0 1px;
+}
+
+.main {
+    background-color: white;
+    flex: 1;
+}
+
+.content {
+    padding: 20px;
+}
